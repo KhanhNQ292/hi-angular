@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DemoComponent } from './demo/demo.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [		
+    AppComponent,
+      DemoComponent,
+      DropdownComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
